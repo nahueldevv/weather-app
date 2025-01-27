@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Weather APP</title>
+  </head>
+  <body>
+    <article class="wt-card">
+      <section class="wt-card__search">
+        <i class="fa-solid fa-location-dot"></i>
+        <input type="text" placeholder="Enter your location" />
+        <button class="fa-solid fa-magnifying-glass"></button>
+      </section>
+      <section class="wt-card__not-found">
+        <img src="images/404.png" alt="not-found image" />
+        <p>Oops! Invalid location :/</p>
+      </section>
+      <section class="wt-card__current">
+        <img src="" alt="weather-image representative" />
+        <p class="wt-card__current-temperature">27</p>
+        <p class="wt-card__current-description">Clear</p>
+      </section>
+      <section class="wt-card__details">
+        <article class="humidity">
+          <i class="fa-solid fa-water"></i>
+          <div class="humidity__text">
+            <span></span>
+            <p>Humidity</p>
+          </div>
+        </article>
+        <article class="wind">
+          <i class="fa-solid fa-wind"></i>
+          <div class="wind__text">
+            <span></span>
+            <p>Wind Speed</p>
+          </div>
+        </article>
+      </section>
+    </article>
+
+    <script src="https://kit.fontawesome.com/3063d90ddb.js" crossorigin="anonymous"></script>
+    <script defer src="main.js"></script>
+  </body>
+</html>
