@@ -5,6 +5,8 @@
 
 This is a weather app built using JavaScript and animated SVGs. It follows the BEM methodology and applies semantic HTML. The app utilizes the OpenWeather API to fetch weather data.
 
+[weather-app](https://nahueldevv.github.io/weather-app/)
+
 ### Warning !
 
 You need to obtain your own API key by registering at [OpenWeather API](https://openweathermap.org/api)
