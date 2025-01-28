@@ -30,7 +30,8 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 400px;
+    margin: 0 1em;
+    max-width: 400px;
     height: 105px;
     padding: 1.5em 2em;
     border-radius: 14px;
@@ -48,7 +49,7 @@ img {
 }
 
 .wt-card__search input {
-    width: 80%;
+    max-width: 70%;
     font-size: 24px;
     font-weight: 500;
     text-transform: uppercase;
@@ -121,18 +122,18 @@ img {
 .wt-card__details span {
     color: var(--black-blue-color);
     font-weight: 500;
-    font-size: 22px;
+    font-size: clamp(2vh, 22px, 4vw);
 }
 
 .wt-card__details p {
     color: var(--black-blue-color);
     font-weight: 500;
-    font-size: 14px;
+    font-size: clamp(1.4vw, 14px,3.8vw);
 }
 
 .wt-card__details i {
     color: var(--black-blue-color);
-    font-size: 26px;
+    font-size: clamp(3vw, 26px, 6vw);
 }
 
 .wt-card__current,
