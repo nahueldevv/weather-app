@@ -122,18 +122,18 @@ img {
 .wt-card__details span {
     color: var(--black-blue-color);
     font-weight: 500;
-    font-size: clamp(2vh, 22px, 4vw);
+    font-size: clamp(22px, 22px, 4vw);
 }
 
 .wt-card__details p {
     color: var(--black-blue-color);
     font-weight: 500;
-    font-size: clamp(1.4vw, 14px,3.8vw);
+    font-size: clamp(14px, 14px,3.8vw);
 }
 
 .wt-card__details i {
     color: var(--black-blue-color);
-    font-size: clamp(3vw, 26px, 6vw);
+    font-size: clamp(26px, 26px, 3vw);
 }
 
 .wt-card__current,
